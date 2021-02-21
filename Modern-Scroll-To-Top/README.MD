@@ -9,6 +9,8 @@ Modern Scroller using HTML, CSS and jQuery. Version v1.0
 
 > jQuery function which runs once the Document Object Model is loaded which calculates when the page has spanned over 700px and displays the Scroll Button and Listens for the Click for the Up Arrow and Scrolls to Page Top.
 
+> CSS Smooth Scrolling Effect added html{scroll-behavior: smooth;}
+
 ### Task List
 
 - [x] Creating Page and Scroller (HTML)
