@@ -66,6 +66,7 @@
     transform: translate(-50%, -50%);
     list-style: none;
     text-align: center;
+    margin-top: 3rem;
 }
 
 .wrapper ul li {
