@@ -3,8 +3,8 @@
 This HTML-CSS-Collection-Cards Series is a collection of modern projects with a specific focus on HTML and Styling in CSS. Version v1.0.
 Explore the Projects using the Website Portal below and use back to return to the home screen.
 
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/mogrady-git/HTML-CSS-Collection-Cards">
-<a href="https://mogrady-git.github.io/HTML-CSS-Collection-Cards/"><img alt="GitHub last commit" src="https://img.shields.io/badge/Version%201.0-Launch%20Website-green"></a>
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/mogrady-git/Modern-Frontend-Components/">
+<a href="https://mogrady-git.github.io/Modern-Frontend-Components/"><img alt="GitHub last commit" src="https://img.shields.io/badge/Version%201.0-Launch%20Website-green"></a>
 
 ### Unique Project Points
 
