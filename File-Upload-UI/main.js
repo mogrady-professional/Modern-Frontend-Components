@@ -4,6 +4,7 @@ const dropArea = document.querySelector(".drag-area");
 dragText = dropArea.querySelector("header");
 button = dropArea.querySelector("button");
 input = dropArea.querySelector("input");
+
 let file; // gloval variable used inside multiple functions
 
 button.onclick = () => {
@@ -55,13 +56,23 @@ function showFile() {
             let fileURL = fileReader.result; // passing user file source in fileURL variable
             // console.log(fileURL);
             let imgTag = `<img src="${fileURL}" alt="">`; // creating img tag and passing user selected file source inside src attribute
-            dropArea.innerHTML = imgTag; //adding that created img tag inside drpoArea container
-
+            dropArea.innerHTML = imgTag + `<a href="${fileURL}" download style=" 
+            padding: 10px 25px;
+            font-size: 20px;
+            font-weight: 500;
+            border: none;
+            outline: none;
+            background: #fff;
+            color: #5256ad;
+            border-radius: 5px;
+            cursor: pointer; margin-top:1rem;
+            ">Download Image</a>`; //adding that created img tag and button link to download image inside dropArea container
         }
         fileReader.readAsDataURL(file);
     } else {
         // console.log("This is not an Image File");
         alert("This is not an Image File!");
         dropArea.classList.remove("active");
+        dragText.textContent = "Drag and Drop to Upload File";
     }
 };
